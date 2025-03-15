@@ -33,15 +33,15 @@ def replace_chunk(content, marker, chunk, inline=False):
 
 
 if __name__ == '__main__':
-    print("---------- Update readme for JadeCong ----------")
+    print("---------- Update readme for Knighthood2001 ----------")
     
     # Get recent project list from target repository
-    project_path = "JadeCong.github.io/_projects"
+    project_path = "Knighthood2001.github.io/_projects"
     recent_projects = fetch_recent_project_list(get_file_names(project_path))
     print(recent_projects)
     
     # Get recent blog list from target repository
-    blog_path = "JadeCong.github.io/contents/blogs/_posts"
+    blog_path = "Knighthood2001.github.io/contents/blogs/_posts"
     recent_blogs = fetch_recent_blog_list(get_file_names(blog_path))
     print(recent_blogs)
     
@@ -52,7 +52,7 @@ if __name__ == '__main__':
     ## Update recent project list
     recent_projects_chunk = "".join(
         [
-            "- [{}](https://jadecong.github.io/contents/projects/{}/)".format(project.split('.')[0].replace("-", " "), project.split('.')[0])
+            "- [{}](https://Knighthood2001.github.io/contents/projects/{}/)".format(project.split('.')[0].replace("-", " "), project.split('.')[0])
             for project in recent_projects
         ]
     )
@@ -60,7 +60,7 @@ if __name__ == '__main__':
     ## Update recent blog list
     recent_blogs_chunk = "".join(
         [
-            "- [{}](https://jadecong.github.io/contents/blogs/{}/)".format(blog.split('.')[0][11:].replace("-", " "), blog.split('.')[0])
+            "- [{}](https://Knighthood2001.github.io/contents/blogs/{}/)".format(blog.split('.')[0][11:].replace("-", " "), blog.split('.')[0])
             for blog in recent_blogs
         ]
     )
@@ -70,4 +70,4 @@ if __name__ == '__main__':
     with open("README.md", 'w', encoding='utf-8') as file:
         file.write(readme_content)
     
-    print("---------- Update readme for JadeCong ----------")
+    print("---------- Update readme for Knighthood2001 ----------")
