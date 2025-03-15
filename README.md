@@ -30,17 +30,14 @@
 
 <table width="960px">
 <tr>
-<td valign="top" width="480px">
 
-### 💼 [Recent Projects](https://jadecong.github.io/contents/projects/)
+
+### 💼 Recent Projects
 <!-- Recent-Project-List:Start -->
 - 📌 **[2025]** - **[Robotics]** - **[Simulation]** - **[Open Source]** - **[Python]** - **[PCL]**
 <!-- Recent-Project-List:End -->
 
-</td>
-<td valign="top" width="480px">
 
-</td>
 </tr>
 </table>
 
