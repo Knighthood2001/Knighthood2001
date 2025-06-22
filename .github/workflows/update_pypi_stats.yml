@@ -1,0 +1,41 @@
+name: Update PyPI Download Stats
+
+on:
+  schedule:
+    # 每天8点执行（北京时间）
+    - cron: "0 0 * * *"
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.8"
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install -r scripts/requirements.txt
+
+      - name: Update README with PyPI stats
+        run: |
+          python update_pypi_stats.py
+        env:
+          # 替换为你的包名，用逗号分隔
+          PYPI_PACKAGES: "ros-pointcloud-recorder,tree2json,tree2proj"
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add README.md
+          git commit -m "Update PyPI stats" || exit 0
+          
+      - name: Push changes
+        uses: actions/git-push@v1

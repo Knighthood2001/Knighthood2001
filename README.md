@@ -76,6 +76,12 @@
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Knighthood2001&show=discussions_answered&show_icons=true&hide_border=true&theme=tokyonight)
 ![GitHub Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Knighthood2001&langs_count=10&layout=compact&hide_border=true&theme=tokyonight)
 
+<!-- PYPI_STATS:Start -->
+### Python Package Download Stats  
+- **Last 24 hours**: **0** downloads  
+- **Total downloads**: **0** downloads  
+- **Data update time**: Waiting for first update  
+<!-- PYPI_STATS:End -->
 
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Knighthood2001&area=true&hide_border=true&theme=github-compact)

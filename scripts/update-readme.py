@@ -1,9 +1,21 @@
 import os, sys
 import re
 import datetime
+import json
+from datetime import datetime
 
 
 def get_file_names(folder_path):
+    """
+    获取指定目录下的所有文件名。
+
+    Args:
+        folder_path (str): 要遍历的目录路径。
+
+    Returns:
+        list: 包含指定目录下所有文件名的列表。
+
+    """
     file_names = []
     for root, dirs, files in os.walk(folder_path):
         for file in files:
@@ -12,12 +24,32 @@ def get_file_names(folder_path):
     return file_names
 
 def fetch_recent_project_list(file_names):
+    """
+    获取最近的项目列表
+
+    Args:
+        file_names (list): 包含文件名的列表
+
+    Returns:
+        list: 包含最近五个项目文件名的列表
+
+    """
     recent_project_list = []
     recent_project_list = sorted(file_names, reverse=False)[:5]
     
     return recent_project_list
 
 def fetch_recent_blog_list(file_names):
+    """
+    获取最近5个博客文件名列表。
+
+    Args:
+        file_names (list): 包含所有博客文件名的列表。
+
+    Returns:
+        list: 最近的5个博客文件名列表，按文件名降序排列。
+
+    """
     recent_blog_list = []
     recent_blog_list = sorted(file_names, reverse=True)[:5]
     
@@ -69,5 +101,4 @@ if __name__ == '__main__':
     ## Update readme contents
     with open("README.md", 'w', encoding='utf-8') as file:
         file.write(readme_content)
-    
     print("---------- Update readme for Knighthood2001 ----------")
