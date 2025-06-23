@@ -46,6 +46,7 @@ def update_readme(package_list):
         all_stats.append(stats)
         total_last_day += stats["last_day"]
         total_all += stats["total"]
+        print(f"{pkg}的一天下载量：{stats['last_day']}     总共下载量：{stats['total']}")
     
     # 生成统计内容
     stats_content = "### Python Package Download Stats\n\n"

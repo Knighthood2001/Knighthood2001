@@ -42,4 +42,7 @@ jobs:
           git commit -m "Update PyPI stats" || exit 0
           
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@v0.8.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
