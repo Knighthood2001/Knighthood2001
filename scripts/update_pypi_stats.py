@@ -4,6 +4,7 @@ import re
 import json
 from datetime import datetime
 import time
+from pathlib import Path
 
 def get_package_downloads(package_name):
     """获取单个包的最近1天下载量和总下载量"""
@@ -33,35 +34,107 @@ def get_package_downloads(package_name):
             "total": 0
         }
 
+# def update_readme(package_list):
+#     """更新README.md中的下载统计部分"""
+#     # 获取所有包的统计数据
+#     all_stats = []
+#     total_last_day = 0
+#     total_all = 0
+    
+#     for pkg in package_list:
+#         time.sleep(1)  # 避免频繁请求
+#         stats = get_package_downloads(pkg)
+#         all_stats.append(stats)
+#         total_last_day += stats["last_day"]
+#         total_all += stats["total"]
+#         print(f"{pkg}的一天下载量：{stats['last_day']}     总共下载量：{stats['total']}")
+    
+#     # 生成统计内容
+#     stats_content = "### Python Package Download Stats\n\n"
+#     for stats in all_stats:
+#         stats_content += f"- **{stats['package']}**\n  - Last 24 hours: {stats['last_day']} downloads\n  - Total downloads: {stats['total']} downloads\n\n"
+    
+#     stats_content += f"- **Total**\n  - Last 24 hours: {total_last_day} downloads\n  - Total downloads: {total_all} downloads\n"
+#     stats_content += f"- Data update time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+    
+    # # 读取并更新README
+    # try:
+    #     with open("README.md", "r", encoding="utf-8") as f:
+    #         readme = f.read()
+        
+    #     # 使用标记替换统计部分
+    #     updated_readme = re.sub(
+    #         r"<!-- PYPI_STATS:Start -->.*?<!-- PYPI_STATS:End -->",
+    #         f"<!-- PYPI_STATS:Start -->\n{stats_content}\n<!-- PYPI_STATS:End -->",
+    #         readme,
+    #         flags=re.DOTALL
+    #     )
+        
+    #     with open("README.md", "w", encoding="utf-8") as f:
+    #         f.write(updated_readme)
+        
+    #     print("✅ README更新成功")
+    # except Exception as e:
+    #     print(f"❌ 更新README失败: {str(e)}")
+
+
+
+
+def load_historical_data():
+    """加载历史数据文件"""
+    file_path = Path("pypi_stats.json")
+    if file_path.exists():
+        with open(file_path, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {}
+
+def save_historical_data(data):
+    """保存历史数据文件"""
+    with open("pypi_stats.json", "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+
 def update_readme(package_list):
-    """更新README.md中的下载统计部分"""
-    # 获取所有包的统计数据
+    """更新 README 和历史数据"""
+    historical_data = load_historical_data()
     all_stats = []
     total_last_day = 0
     total_all = 0
-    
+
     for pkg in package_list:
-        time.sleep(1)  # 避免频繁请求
+        time.sleep(3)  # 避免频繁请求
         stats = get_package_downloads(pkg)
+        
+        # 更新历史数据（累加每日下载量）
+        if pkg not in historical_data:
+            historical_data[pkg] = {"last_update": "", "total": 0}
+        
+        # 仅当今天未更新时累加（避免重复累加）
+        today = datetime.now().strftime("%Y-%m-%d")
+        if historical_data[pkg]["last_update"] != today:
+            historical_data[pkg]["total"] += stats["last_day"]
+            historical_data[pkg]["last_update"] = today
+        
+        stats["historical_total"] = historical_data[pkg]["total"]
         all_stats.append(stats)
         total_last_day += stats["last_day"]
-        total_all += stats["total"]
-        print(f"{pkg}的一天下载量：{stats['last_day']}     总共下载量：{stats['total']}")
-    
-    # 生成统计内容
+        total_all += stats["historical_total"]  # 使用累加后的总量
+
+    # 保存历史数据
+    save_historical_data(historical_data)
+
+    # 生成 README 内容（包含历史总量）
     stats_content = "### Python Package Download Stats\n\n"
     for stats in all_stats:
-        stats_content += f"- **{stats['package']}**\n  - Last 24 hours: {stats['last_day']} downloads\n  - Total downloads: {stats['total']} downloads\n\n"
+        stats_content += f"- **{stats['package']}**\n  - Last 24 hours: {stats['last_day']} downloads\n  - Historical total: {stats['historical_total']} downloads\n\n"
     
-    stats_content += f"- **Total**\n  - Last 24 hours: {total_last_day} downloads\n  - Total downloads: {total_all} downloads\n"
+    stats_content += f"- **Total**\n  - Last 24 hours: {total_last_day} downloads\n  - Historical total: {total_all} downloads\n"
     stats_content += f"- Data update time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-    
-    # 读取并更新README
+
     try:
+        # 更新 README.md
         with open("README.md", "r", encoding="utf-8") as f:
             readme = f.read()
         
-        # 使用标记替换统计部分
         updated_readme = re.sub(
             r"<!-- PYPI_STATS:Start -->.*?<!-- PYPI_STATS:End -->",
             f"<!-- PYPI_STATS:Start -->\n{stats_content}\n<!-- PYPI_STATS:End -->",
@@ -71,7 +144,6 @@ def update_readme(package_list):
         
         with open("README.md", "w", encoding="utf-8") as f:
             f.write(updated_readme)
-        
         print("✅ README更新成功")
     except Exception as e:
         print(f"❌ 更新README失败: {str(e)}")
