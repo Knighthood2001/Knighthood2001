@@ -1,3 +1,23 @@
 {
-
+  "ros-pointcloud-recorder": {
+    "last_update": "2025-06-23",
+    "total": 1701,
+    "daily_data": {
+      "2025-06-23": 0
+    }
+  },
+  "tree2json": {
+    "last_update": "2025-06-23",
+    "total": 1395,
+    "daily_data": {
+      "2025-06-23": 56
+    }
+  },
+  "tree2proj": {
+    "last_update": "2025-06-23",
+    "total": 588,
+    "daily_data": {
+      "2025-06-23": 80
+    }
+  }
 }
