@@ -2,7 +2,7 @@ name: Update PyPI Download Stats
 
 on:
   schedule:
-    # 每天8点执行（北京时间）
+    # 每天9点执行（北京时间）
     - cron: "0 1 * * *"  # 分钟 小时 日 月 周几
 
 # on:
