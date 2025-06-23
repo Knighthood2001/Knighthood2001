@@ -82,7 +82,7 @@ def get_package_downloads(package_name):
 
 def load_historical_data():
     """加载历史数据文件"""
-    file_path = Path("../assets/pypi_stats.json")
+    file_path = Path("./assets/pypi_stats.json")
     if file_path.exists():
         with open(file_path, "r", encoding="utf-8") as f:
             return json.load(f)
@@ -90,7 +90,7 @@ def load_historical_data():
 
 def save_historical_data(data):
     """保存历史数据文件"""
-    with open("../assets/pypi_stats.json", "w", encoding="utf-8") as f:
+    with open("./assets/pypi_stats.json", "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
 
 def update_readme(package_list):
