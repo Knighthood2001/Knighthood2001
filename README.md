@@ -77,24 +77,45 @@
 ![GitHub Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Knighthood2001&langs_count=10&layout=compact&hide_border=true&theme=tokyonight)
 
 <!-- PYPI_STATS:Start -->
-### Python Package Download Stats
 
-- **ros-pointcloud-recorder**
-  - Last 24 hours: 0 downloads
-  - Historical total: 1701 downloads
+<h3>PyPI Download Statistics</h3>
+<table>
+  <thead align="center">
+    <tr border: none;>
+      <td><b>📦 Package</b></td>
+      <td><b>📊 Last 24h</b></td>
+      <td><b>📈 Total</b></td>
+    </tr>
+  </thead>
+  <tbody>
 
-- **tree2json**
-  - Last 24 hours: 56 downloads
-  - Historical total: 1395 downloads
+    <tr>
+      <td><a href="https://pypi.org/project/ros-pointcloud-recorder/"><b>ros-pointcloud-recorder</b></a></td>
+      <td align="center">0</td>
+      <td align="center">1,701</td>
+    </tr>
 
-- **tree2proj**
-  - Last 24 hours: 80 downloads
-  - Historical total: 588 downloads
+    <tr>
+      <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
+      <td align="center">56</td>
+      <td align="center">1,395</td>
+    </tr>
 
-- **Total**
-  - Last 24 hours: 136 downloads
-  - Historical total: 3684 downloads
-- Data update time: 2025-06-23 03:53:09
+    <tr>
+      <td><a href="https://pypi.org/project/tree2proj/"><b>tree2proj</b></a></td>
+      <td align="center">80</td>
+      <td align="center">588</td>
+    </tr>
+
+    <tr>
+      <td><b>Total</b></td>
+      <td align="center">136</td>
+      <td align="center">3,684</td>
+    </tr>
+  </tbody>
+</table>
+<p align="right"><sub>Last updated: 2025-06-23 04:20:07</sub></p>
+
 <!-- PYPI_STATS:End -->
 
 
