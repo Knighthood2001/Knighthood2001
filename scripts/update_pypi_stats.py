@@ -101,14 +101,14 @@ def update_readme(package_list):
     total_all = 0
 
     for pkg in package_list:
-        time.sleep(3)  # 避免频繁请求
+        time.sleep(1)  # 避免频繁请求
         stats = get_package_downloads(pkg)
         
         # 更新历史数据（累加每日下载量）
         if pkg not in historical_data:
             historical_data[pkg] = {
                 "last_update": "", 
-                "total": 0,
+                "total": stats["pypi_total"],  # 初始化为当前 PyPI 的 180 天总和
                 "daily_data": {}  
             }
         # 仅当今天未更新时累加（避免重复累加）
