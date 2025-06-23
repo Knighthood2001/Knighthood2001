@@ -153,8 +153,7 @@ def update_readme(package_list):
       <td><b>📈 Total</b></td>
     </tr>
   </thead>
-  <tbody>
-"""
+  <tbody>"""
     
     for stats in all_stats:
         stats_content += f"""
@@ -162,8 +161,7 @@ def update_readme(package_list):
       <td><a href="https://pypi.org/project/{stats['package']}/"><b>{stats['package']}</b></a></td>
       <td align="center">{stats['last_day']}</td>
       <td align="center">{stats['historical_total']:,}</td>
-    </tr>
-"""
+    </tr>"""
     
     stats_content += f"""
     <tr>
