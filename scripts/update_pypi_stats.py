@@ -33,53 +33,7 @@ def get_package_downloads(package_name):
             "last_day": 0,
             "pypi_total": 0
         }
-
-# def update_readme(package_list):
-#     """更新README.md中的下载统计部分"""
-#     # 获取所有包的统计数据
-#     all_stats = []
-#     total_last_day = 0
-#     total_all = 0
-    
-#     for pkg in package_list:
-#         time.sleep(1)  # 避免频繁请求
-#         stats = get_package_downloads(pkg)
-#         all_stats.append(stats)
-#         total_last_day += stats["last_day"]
-#         total_all += stats["total"]
-#         print(f"{pkg}的一天下载量：{stats['last_day']}     总共下载量：{stats['total']}")
-    
-#     # 生成统计内容
-#     stats_content = "### Python Package Download Stats\n\n"
-#     for stats in all_stats:
-#         stats_content += f"- **{stats['package']}**\n  - Last 24 hours: {stats['last_day']} downloads\n  - Total downloads: {stats['total']} downloads\n\n"
-    
-#     stats_content += f"- **Total**\n  - Last 24 hours: {total_last_day} downloads\n  - Total downloads: {total_all} downloads\n"
-#     stats_content += f"- Data update time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-    
-    # # 读取并更新README
-    # try:
-    #     with open("README.md", "r", encoding="utf-8") as f:
-    #         readme = f.read()
         
-    #     # 使用标记替换统计部分
-    #     updated_readme = re.sub(
-    #         r"<!-- PYPI_STATS:Start -->.*?<!-- PYPI_STATS:End -->",
-    #         f"<!-- PYPI_STATS:Start -->\n{stats_content}\n<!-- PYPI_STATS:End -->",
-    #         readme,
-    #         flags=re.DOTALL
-    #     )
-        
-    #     with open("README.md", "w", encoding="utf-8") as f:
-    #         f.write(updated_readme)
-        
-    #     print("✅ README更新成功")
-    # except Exception as e:
-    #     print(f"❌ 更新README失败: {str(e)}")
-
-
-
-
 def load_historical_data():
     """加载历史数据文件"""
     file_path = Path("./assets/pypi_stats.json")
@@ -103,7 +57,7 @@ def update_readme(package_list):
     for pkg in package_list:
         time.sleep(1)  # 避免频繁请求
         stats = get_package_downloads(pkg)
-        
+        print(f"{pkg}的一天下载量：{stats['last_day']}     总共下载量：{stats['total']}")
         # 更新历史数据（累加每日下载量）
         if pkg not in historical_data:
             historical_data[pkg] = {
