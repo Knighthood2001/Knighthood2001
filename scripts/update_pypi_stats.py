@@ -9,7 +9,7 @@ def get_package_downloads(package_name):
     """获取单个包的最近1天下载量和总下载量"""
     try:
         # 最近1天下载量
-        recent_url = f"https://pypistats.org/api/packages/{package_name}/recent?period=day"
+        recent_url = f"https://pypistats.org/api/packages/{package_name}/recent"
         recent_response = requests.get(recent_url, timeout=10)
         recent_data = recent_response.json()
         last_day = recent_data.get("data", {}).get("last_day", 0)
