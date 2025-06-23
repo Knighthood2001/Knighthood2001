@@ -47,6 +47,67 @@ def save_historical_data(data):
     with open("./assets/pypi_stats.json", "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
 
+# def update_readme(package_list):
+#     """更新 README 和历史数据"""
+#     historical_data = load_historical_data()
+#     all_stats = []
+#     total_last_day = 0
+#     total_all = 0
+
+#     for pkg in package_list:
+#         time.sleep(1)  # 避免频繁请求
+#         stats = get_package_downloads(pkg)
+#         print(f"{pkg}的一天下载量：{stats['last_day']}     总共下载量：{stats['pypi_total']}")
+#         # 更新历史数据（累加每日下载量）
+#         if pkg not in historical_data:
+#             historical_data[pkg] = {
+#                 "last_update": "", 
+#                 "total": stats["pypi_total"],  # 初始化为当前 PyPI 的 180 天总和
+#                 "daily_data": {}  
+#             }
+#         # 仅当今天未更新时累加（避免重复累加）
+#         today = datetime.now().strftime("%Y-%m-%d")
+#         if historical_data[pkg]["last_update"] != today:
+#             historical_data[pkg]["total"] += stats["last_day"]
+#             historical_data[pkg]["last_update"] = today
+#             historical_data[pkg]["daily_data"][today] = stats["last_day"]  # 记录每日数据
+        
+#         stats["historical_total"] = historical_data[pkg]["total"]
+#         all_stats.append(stats)
+#         total_last_day += stats["last_day"]
+#         total_all += stats["historical_total"]  # 使用累加后的总量
+
+#     # 保存历史数据
+#     save_historical_data(historical_data)
+
+#     # 生成 README 内容（包含历史总量）
+#     stats_content = "### Python Package Download Stats\n\n"
+#     for stats in all_stats:
+#         stats_content += f"- **{stats['package']}**\n  - Last 24 hours: {stats['last_day']} downloads\n  - Historical total: {stats['historical_total']} downloads\n\n"
+    
+#     stats_content += f"- **Total**\n  - Last 24 hours: {total_last_day} downloads\n  - Historical total: {total_all} downloads\n"
+#     stats_content += f"- Data update time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+
+#     try:
+#         # 更新 README.md
+#         with open("README.md", "r", encoding="utf-8") as f:
+#             readme = f.read()
+        
+#         updated_readme = re.sub(
+#             r"<!-- PYPI_STATS:Start -->.*?<!-- PYPI_STATS:End -->",
+#             f"<!-- PYPI_STATS:Start -->\n{stats_content}\n<!-- PYPI_STATS:End -->",
+#             readme,
+#             flags=re.DOTALL
+#         )
+        
+#         with open("README.md", "w", encoding="utf-8") as f:
+#             f.write(updated_readme)
+#         print("✅ README更新成功")
+#     except Exception as e:
+#         print(f"❌ 更新README失败: {str(e)}")
+
+
+# 更加美观
 def update_readme(package_list):
     """更新 README 和历史数据"""
     historical_data = load_historical_data()
@@ -55,38 +116,65 @@ def update_readme(package_list):
     total_all = 0
 
     for pkg in package_list:
-        time.sleep(1)  # 避免频繁请求
+        time.sleep(1)
         stats = get_package_downloads(pkg)
         print(f"{pkg}的一天下载量：{stats['last_day']}     总共下载量：{stats['pypi_total']}")
+        
         # 更新历史数据（累加每日下载量）
         if pkg not in historical_data:
             historical_data[pkg] = {
                 "last_update": "", 
-                "total": stats["pypi_total"],  # 初始化为当前 PyPI 的 180 天总和
+                "total": stats["pypi_total"],
                 "daily_data": {}  
             }
-        # 仅当今天未更新时累加（避免重复累加）
+        
         today = datetime.now().strftime("%Y-%m-%d")
         if historical_data[pkg]["last_update"] != today:
             historical_data[pkg]["total"] += stats["last_day"]
             historical_data[pkg]["last_update"] = today
-            historical_data[pkg]["daily_data"][today] = stats["last_day"]  # 记录每日数据
+            historical_data[pkg]["daily_data"][today] = stats["last_day"]
         
         stats["historical_total"] = historical_data[pkg]["total"]
         all_stats.append(stats)
         total_last_day += stats["last_day"]
-        total_all += stats["historical_total"]  # 使用累加后的总量
+        total_all += stats["historical_total"]
 
     # 保存历史数据
     save_historical_data(historical_data)
 
-    # 生成 README 内容（包含历史总量）
-    stats_content = "### Python Package Download Stats\n\n"
-    for stats in all_stats:
-        stats_content += f"- **{stats['package']}**\n  - Last 24 hours: {stats['last_day']} downloads\n  - Historical total: {stats['historical_total']} downloads\n\n"
+    # 生成精美的表格内容
+    stats_content = """
+<h3>PyPI Download Statistics</h3>
+<table>
+  <thead align="center">
+    <tr border: none;>
+      <td><b>📦 Package</b></td>
+      <td><b>📊 Last 24h</b></td>
+      <td><b>📈 Total</b></td>
+    </tr>
+  </thead>
+  <tbody>
+"""
     
-    stats_content += f"- **Total**\n  - Last 24 hours: {total_last_day} downloads\n  - Historical total: {total_all} downloads\n"
-    stats_content += f"- Data update time: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+    for stats in all_stats:
+        stats_content += f"""
+    <tr>
+      <td><a href="https://pypi.org/project/{stats['package']}/"><b>{stats['package']}</b></a></td>
+      <td align="center">{stats['last_day']}</td>
+      <td align="center">{stats['historical_total']:,}</td>
+    </tr>
+"""
+    
+    stats_content += f"""
+    <tr>
+      <td><b>Total</b></td>
+      <td align="center">{total_last_day}</td>
+      <td align="center">{total_all:,}</td>
+    </tr>
+  </tbody>
+</table>
+<p align="right"><sub>Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</sub></p>
+"""
 
     try:
         # 更新 README.md
@@ -105,7 +193,6 @@ def update_readme(package_list):
         print("✅ README更新成功")
     except Exception as e:
         print(f"❌ 更新README失败: {str(e)}")
-
 if __name__ == "__main__":
     print("---------- 更新PyPI下载统计 ----------")
     # 从环境变量获取包列表，多个包用逗号分隔
