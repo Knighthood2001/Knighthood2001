@@ -81,20 +81,20 @@
 
 - **ros-pointcloud-recorder**
   - Last 24 hours: 0 downloads
-  - Total downloads: 1701 downloads
+  - Historical total: 0 downloads
 
 - **tree2json**
   - Last 24 hours: 56 downloads
-  - Total downloads: 1339 downloads
+  - Historical total: 56 downloads
 
 - **tree2proj**
   - Last 24 hours: 80 downloads
-  - Total downloads: 508 downloads
+  - Historical total: 80 downloads
 
 - **Total**
   - Last 24 hours: 136 downloads
-  - Total downloads: 3548 downloads
-- Data update time: 2025-06-23 02:31:14
+  - Historical total: 136 downloads
+- Data update time: 2025-06-23 02:39:57
 <!-- PYPI_STATS:End -->
 
 
