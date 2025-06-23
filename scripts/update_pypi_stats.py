@@ -33,7 +33,7 @@ def get_package_downloads(package_name):
             "last_day": 0,
             "pypi_total": 0
         }
-        
+
 def load_historical_data():
     """加载历史数据文件"""
     file_path = Path("./assets/pypi_stats.json")
@@ -57,7 +57,7 @@ def update_readme(package_list):
     for pkg in package_list:
         time.sleep(1)  # 避免频繁请求
         stats = get_package_downloads(pkg)
-        print(f"{pkg}的一天下载量：{stats['last_day']}     总共下载量：{stats['total']}")
+        print(f"{pkg}的一天下载量：{stats['last_day']}     总共下载量：{stats['pypi_total']}")
         # 更新历史数据（累加每日下载量）
         if pkg not in historical_data:
             historical_data[pkg] = {
