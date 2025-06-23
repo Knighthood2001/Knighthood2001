@@ -1,18 +1,23 @@
 {
-    "ros-pointcloud-recorder": {
-      "last_update": "",  
-      "total": 0,               
-      "daily_data": {               
-      }
-    },
-    "tree2json": {
-      "last_update": "",
-      "total": 0,
-      "daily_data": {}
-    },
-    "tree2proj": {
-        "last_update": "",
-        "total": 0,
-        "daily_data": {}
-      }
+  "ros-pointcloud-recorder": {
+    "last_update": "2025-06-23",
+    "total": 0,
+    "daily_data": {
+      "2025-06-23": 0
+    }
+  },
+  "tree2json": {
+    "last_update": "2025-06-23",
+    "total": 56,
+    "daily_data": {
+      "2025-06-23": 56
+    }
+  },
+  "tree2proj": {
+    "last_update": "2025-06-23",
+    "total": 80,
+    "daily_data": {
+      "2025-06-23": 80
+    }
+  }
 }
