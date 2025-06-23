@@ -24,14 +24,14 @@ def get_package_downloads(package_name):
         return {
             "package": package_name,
             "last_day": last_day,
-            "total": total_downloads
+            "pypi_total": total_downloads  # # 明确表示这是 PyPI 接口的 180 天总和
         }
     except Exception as e:
         print(f"获取{package_name}数据失败: {str(e)}")
         return {
             "package": package_name,
             "last_day": 0,
-            "total": 0
+            "pypi_total": 0
         }
 
 # def update_readme(package_list):
@@ -106,13 +106,17 @@ def update_readme(package_list):
         
         # 更新历史数据（累加每日下载量）
         if pkg not in historical_data:
-            historical_data[pkg] = {"last_update": "", "total": 0}
-        
+            historical_data[pkg] = {
+                "last_update": "", 
+                "total": 0,
+                "daily_data": {}  
+            }
         # 仅当今天未更新时累加（避免重复累加）
         today = datetime.now().strftime("%Y-%m-%d")
         if historical_data[pkg]["last_update"] != today:
             historical_data[pkg]["total"] += stats["last_day"]
             historical_data[pkg]["last_update"] = today
+            historical_data[pkg]["daily_data"][today] = stats["last_day"]  # 记录每日数据
         
         stats["historical_total"] = historical_data[pkg]["total"]
         all_stats.append(stats)

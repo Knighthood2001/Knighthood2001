@@ -1,0 +1,18 @@
+{
+    "ros-pointcloud-recorder": {
+      "last_update": "",  
+      "total": 0,               
+      "daily_data": {               
+      }
+    },
+    "tree2json": {
+      "last_update": "",
+      "total": 0,
+      "daily_data": {}
+    },
+    "tree2proj": {
+        "last_update": "",
+        "total": 0,
+        "daily_data": {}
+      }
+}

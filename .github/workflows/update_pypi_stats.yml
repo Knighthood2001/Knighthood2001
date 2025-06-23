@@ -42,7 +42,7 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add README.md
+          git add README.md ./assets/pypi_stats.json
           git commit -m "Update PyPI stats" || exit 0
           
       - name: Push changes
