@@ -28,7 +28,7 @@ jobs:
 
       - name: Update README with PyPI stats
         run: |
-          python update_pypi_stats.py
+          python scripts/update_pypi_stats.py
         env:
           # 替换为你的包名，用逗号分隔
           PYPI_PACKAGES: "ros-pointcloud-recorder,tree2json,tree2proj"
