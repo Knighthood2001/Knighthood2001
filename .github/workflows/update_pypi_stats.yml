@@ -9,10 +9,14 @@ on:
     branches:
       - main  # 仅监听main分支的push，可根据需要修改
 
+permissions: 
+  contents: write
+
 jobs:
   update-stats:
     runs-on: ubuntu-latest
-    
+    permissions: 
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -42,7 +46,6 @@ jobs:
           git commit -m "Update PyPI stats" || exit 0
           
       - name: Push changes
-        uses: ad-m/github-push-action@v0.8.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          force: true
+        run: git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用默认 token

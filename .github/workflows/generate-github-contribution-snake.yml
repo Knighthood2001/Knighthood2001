@@ -58,14 +58,10 @@ jobs:
           git config --global user.email "github-actions[Knighthood2001-bot]@users.noreply.github.com"
           git commit -a -m "Generate github contribution snake for Knighthood2001" || exit 0
       
-      # # Push the changes to GitHub.
-      # - name: Push Changes to GitHub
-      #   uses: ad-m/github-push-action@master
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     branch: ${{ github.ref }}
       # Push the changes to GitHub.
-      - name: Push Changes
-        run: git push origin main
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Push Changes to GitHub
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
+      
