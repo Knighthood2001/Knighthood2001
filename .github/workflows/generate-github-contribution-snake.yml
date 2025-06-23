@@ -28,7 +28,9 @@ jobs:
     name: Generate GitHub Contribution Snake for Knighthood2001
     # The type of runner that the job will run on.
     runs-on: ubuntu-latest
-    
+    permissions:
+      contents: write
+      
     # Steps represent a sequence of tasks that will be executed as part of the job.
     steps:
       # Check repos under $GITHUB_WORKSHOP, so your job can access it.
