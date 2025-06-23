@@ -77,10 +77,24 @@
 ![GitHub Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Knighthood2001&langs_count=10&layout=compact&hide_border=true&theme=tokyonight)
 
 <!-- PYPI_STATS:Start -->
-### Python Package Download Stats  
-- **Last 24 hours**: **0** downloads  
-- **Total downloads**: **0** downloads  
-- **Data update time**: Waiting for first update  
+### Python Package Download Stats
+
+- **ros-pointcloud-recorder**
+  - Last 24 hours: 0 downloads
+  - Total downloads: 0 downloads
+
+- **tree2json**
+  - Last 24 hours: 56 downloads
+  - Total downloads: 1339 downloads
+
+- **tree2proj**
+  - Last 24 hours: 80 downloads
+  - Total downloads: 508 downloads
+
+- **Total**
+  - Last 24 hours: 136 downloads
+  - Total downloads: 1847 downloads
+- Data update time: 2025-06-23 02:17:59
 <!-- PYPI_STATS:End -->
 
 
