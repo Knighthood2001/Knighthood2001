@@ -23,16 +23,7 @@ def get_pypi_stats(package_name):
     }
 
 if __name__ == "__main__":
-    package_name = os.environ.get("PYPACKAGE_NAME")
-    if not package_name:
-        print("❌ 未设置PYPACKAGE_NAME环境变量")
-        exit(1)
-    
-    try:
-        stats = get_pypi_stats(package_name)
-        with open("stats.json", "w", encoding="utf-8") as f:
-            json.dump(stats, f, ensure_ascii=False, indent=2)
-        print(f"✅ 成功获取{package_name}的下载数据")
-    except Exception as e:
-        print(f"❌ 获取数据失败: {str(e)}")
-        exit(1)
+    package_name = "tree2proj"
+    stats = get_pypi_stats(package_name)
+    print(stats)
+
