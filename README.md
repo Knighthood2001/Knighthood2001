@@ -96,21 +96,21 @@
     <tr>
       <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
       <td align="center">56</td>
-      <td align="center">1,619</td>
+      <td align="center">1,675</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2proj/"><b>tree2proj</b></a></td>
       <td align="center">80</td>
-      <td align="center">908</td>
+      <td align="center">988</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
       <td align="center">136</td>
-      <td align="center">4,228</td>
+      <td align="center">4,364</td>
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2025-06-27 12:54:00</sub></p>
+<p align="right"><sub>Last updated: 2025-06-28 02:04:46</sub></p>
 
 <!-- PYPI_STATS:End -->
 
