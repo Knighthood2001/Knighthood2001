@@ -17,7 +17,7 @@ def get_mirror_lastday_download(package_name):
         
         if not items:
             return {
-                "package_name": package_name,
+                "package": package_name,
                 "last_day": None,
                 "download": 0
             }
@@ -26,7 +26,7 @@ def get_mirror_lastday_download(package_name):
         latest_item = max(items, key=lambda x: x["date"])
         
         return {
-            "package_name": package_name,
+            "package": package_name,
             "last_day": latest_item["date"],
             "download": latest_item["downloads"]
         }
@@ -34,7 +34,7 @@ def get_mirror_lastday_download(package_name):
     except Exception as e:
         print(f"获取{package_name}镜像数据失败: {e}")
         return {
-            "package_name": package_name,
+            "package": package_name,
             "last_day": None,
             "download": 0
         }
@@ -53,7 +53,7 @@ def get_without_mirror_lastday_download(package_name):
         yesterday = (datetime.now() - timedelta(days=1)).strftime("%Y-%m-%d")
         
         return {
-            "package_name": package_name,
+            "package": package_name,
             "last_day": yesterday,
             "download": last_day_downloads
         }
@@ -61,7 +61,7 @@ def get_without_mirror_lastday_download(package_name):
     except Exception as e:
         print(f"获取{package_name}非镜像数据失败: {e}")
         return {
-            "package_name": package_name,
+            "package": package_name,
             "last_day": None,
             "download": 0
         }
@@ -74,7 +74,7 @@ def get_lastday_download(package_name):
     
     # 合并数据
     return {
-        "package_name": package_name,
+        "package": package_name,
         "last_day": mirror_data["last_day"],  # 使用镜像数据的日期（更准确）
         "download": mirror_data["download"] + without_mirror_data["download"]
     }
