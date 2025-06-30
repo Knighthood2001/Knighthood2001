@@ -60,7 +60,7 @@ def update_readme(package_list):
     for pkg in package_list:
         time.sleep(1)
         stats = get_package_downloads(pkg)
-        print(f"{pkg}的一天下载量：{stats['download']}     总共下载量：{stats['pypi_total']}")
+        print(f"{pkg}在{stats['last_day']}下载量：{stats['download']}     总共下载量：{stats['pypi_total']}")
         
         # 更新历史数据（累加每日下载量）
         if pkg not in historical_data:
