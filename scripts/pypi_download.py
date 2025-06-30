@@ -30,7 +30,7 @@ def get_package_downloads(package_name):
     except Exception as e:
         print(f"获取{package_name}数据失败: {str(e)}")
         return {
-            "package_name": package_name,
+            "package": package_name,
             "last_day": None,
             "download": 0,
             "pypi_total": 0
