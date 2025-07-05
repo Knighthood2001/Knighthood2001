@@ -91,26 +91,26 @@
     <tr>
       <td><a href="https://pypi.org/project/ros-pointcloud-recorder/"><b>ros-pointcloud-recorder</b></a></td>
       <td align="center">20</td>
-      <td align="center">1,854</td>
+      <td align="center">1,874</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
-      <td align="center">29</td>
-      <td align="center">1,587</td>
+      <td align="center">24</td>
+      <td align="center">1,611</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2proj/"><b>tree2proj</b></a></td>
-      <td align="center">15</td>
-      <td align="center">677</td>
+      <td align="center">9</td>
+      <td align="center">686</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">64</td>
-      <td align="center">4,118</td>
+      <td align="center">53</td>
+      <td align="center">4,171</td>
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2025-07-04 12:53:50</sub></p>
+<p align="right"><sub>Last updated: 2025-07-05 02:04:26</sub></p>
 
 <!-- PYPI_STATS:End -->
 
