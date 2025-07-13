@@ -81,7 +81,7 @@ def get_lastday_download(package_name):
 
 # 示例使用
 if __name__ == "__main__":
-    package_list = ["ros-pointcloud-recorder", "tree2json", "tree2proj"]
+    package_list = ["ros-pointcloud-recorder", "tree2json", "tree2proj", "auto-model-monitor"]
     for pkg in package_list:
         time.sleep(1)
         result = get_lastday_download(pkg)
