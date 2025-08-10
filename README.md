@@ -124,6 +124,10 @@
 
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Knighthood2001&area=true&hide_border=true&theme=github-compact)
-![GitHub Contribution Snake](/assets/images/github-contribution-snake.svg)
+<!-- ![GitHub Contribution Snake](/assets/images/github-contribution-snake.svg) -->
 
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ayangweb/ayangweb/master/assets/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ayangweb/ayangweb/master/assets/github-contribution-grid-snake.svg">
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Knighthood2001/Knighthood2001/master/assets/images/github-contribution-snake.svg">
+</picture>
