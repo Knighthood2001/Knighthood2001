@@ -1,67 +1,97 @@
-# GitHub Action for generating a contribution graph with a snake eating your contributions.
-name: Generate GitHub Contribution Snake
+# # GitHub Action for generating a contribution graph with a snake eating your contributions.
+# name: Generate GitHub Contribution Snake
 
-run-name: Generate GitHub Contribution Snake
+# run-name: Generate GitHub Contribution Snake
 
-# Controls when the action will run.
+# # Controls when the action will run.
+# on:
+#   # This action runs every 12 hours.
+#   schedule:
+#     - cron: "0 */12 * * *"
+#   # This command allows us to run the Action automatically from the Actions tab.
+#   workflow_dispatch:
+
+# permissions: 
+#   contents: write
+
+# env:
+#   GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+# concurrency:
+#   group: ${{ github.workflow }}-${{ github.ref }}
+#   cancel-in-progress: false
+
+# # The sequence of runs in this workflow.
+# jobs:
+#   # This workflow contains a single job called "generate-github-contribution-snake".
+#   generate-github-contribution-snake:
+#     name: Generate GitHub Contribution Snake for Knighthood2001
+#     # The type of runner that the job will run on.
+#     runs-on: ubuntu-latest
+#     permissions:
+#       contents: write
+
+#     # Steps represent a sequence of tasks that will be executed as part of the job.
+#     steps:
+#       # Check repos under $GITHUB_WORKSHOP, so your job can access it.
+#       - name: Checkout the repository to the runner
+#         uses: actions/checkout@v4
+      
+#       # Generate the contribution snake.
+#       - name: Generate Contribution Snake
+#         uses: Platane/snk@v3
+#         with:
+#           github_user_name: ${{ github.repository_owner }}
+#           # These next 2 lines generate the files on the default branch called "main".
+#           outputs: |
+#             ./assets/images/github-contribution-snake.gif?palette=github-dark
+#             ./assets/images/github-contribution-snake.svg?palette=github-dark
+      
+#       # Show the status of the build. Makes it easier for debugging (if there's any issues).
+#       - name: Show Build Status
+#         run: git status
+      
+#       # Commit the generated files.
+#       - name: Commit Files
+#         run: |
+#           git config --global user.name "github-actions[Knighthood2001-bot]"
+#           git config --global user.email "github-actions[Knighthood2001-bot]@users.noreply.github.com"
+#           git commit -a -m "Generate github contribution snake for Knighthood2001" || exit 0
+      
+#       # Push the changes to GitHub.
+#       - name: Push Changes to GitHub
+#         uses: ad-m/github-push-action@master
+#         with:
+#           github_token: ${{ secrets.GITHUB_TOKEN }}
+#           branch: ${{ github.ref }}
+      
+name: Generate Snake
+
 on:
-  # This action runs every 12 hours.
-  schedule:
-    - cron: "0 */12 * * *"
-  # This command allows us to run the Action automatically from the Actions tab.
-  workflow_dispatch:
+    schedule:
+        - cron: "0 0,6,12 * * *"
+    workflow_dispatch:
 
-permissions: 
-  contents: write
-
-env:
-  GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: false
-
-# The sequence of runs in this workflow.
 jobs:
-  # This workflow contains a single job called "generate-github-contribution-snake".
-  generate-github-contribution-snake:
-    name: Generate GitHub Contribution Snake for Knighthood2001
-    # The type of runner that the job will run on.
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    build:
+        runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job.
-    steps:
-      # Check repos under $GITHUB_WORKSHOP, so your job can access it.
-      - name: Checkout the repository to the runner
-        uses: actions/checkout@v4
-      
-      # Generate the contribution snake.
-      - name: Generate Contribution Snake
-        uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          # These next 2 lines generate the files on the default branch called "main".
-          outputs: |
-            ./assets/images/github-contribution-snake.gif?palette=github-dark
-            ./assets/images/github-contribution-snake.svg?palette=github-dark
-      
-      # Show the status of the build. Makes it easier for debugging (if there's any issues).
-      - name: Show Build Status
-        run: git status
-      
-      # Commit the generated files.
-      - name: Commit Files
-        run: |
-          git config --global user.name "github-actions[Knighthood2001-bot]"
-          git config --global user.email "github-actions[Knighthood2001-bot]@users.noreply.github.com"
-          git commit -a -m "Generate github contribution snake for Knighthood2001" || exit 0
-      
-      # Push the changes to GitHub.
-      - name: Push Changes to GitHub
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: ${{ github.ref }}
-      
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v2.3.4
+
+            - name: generate github-contribution-grid-snake.svg
+              uses: Platane/snk/svg-only@v3
+              with:
+                  github_user_name: ${{ github.repository_owner }}
+                  outputs: |
+                      assets/imgs/github-contribution-grid-snake.svg
+                      assets/imgs/github-contribution-grid-snake-dark.svg?palette=github-dark
+              env:
+                  GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+
+            - name: Push to GitHub
+              uses: EndBug/add-and-commit@v7.2.1
+              with:
+                  branch: ${{ github.ref }}
+                  message: "Generate Contribution Snake"
