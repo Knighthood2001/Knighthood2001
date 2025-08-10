@@ -1,6 +1,8 @@
 <!-- Title -->
 <h1 align="center" title="Welcome to my github homepage~ :)">Knighthood2001 🇨🇳</h1>
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&vCenter=true&width=435&lines=Hey%F0%9F%91%8B%2C+I'm+Knighthood2001.;An+Open+Source+Contributor.)](https://git.io/typing-svg)
+
 <!-- Contacts -->
 <p align="center">
     <a href="2109695291@qq.com" title="Email Address"><code>2109695291@qq.com</code></a> │ <a href="https://Knighthood2001.github.io" title="GitHub Pages"><code>Knighthood2001.github.io</code></a>
