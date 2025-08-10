@@ -75,8 +75,31 @@
 ![License](https://img.shields.io/badge/License-Apache_2.0-brightgreen)
 ![Documentation](https://img.shields.io/badge/Documentation-Yes-brightgreen)
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Knighthood2001&show=discussions_answered&show_icons=true&hide_border=true&theme=tokyonight)
-![GitHub Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Knighthood2001&langs_count=10&layout=compact&hide_border=true&theme=tokyonight)
+
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Knighthood2001&theme=vue&show_icons=true&hide_border=true)
+![GitHub Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Knighthood2001&langs_count=10&theme=vue&layout=compact&hide_border=true)
+
+<!-- <table>
+  <tbody>
+    <tr>
+      <td>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Knighthood2001&theme=vue-dark&show_icons=true&hide_border=true">
+          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=Knighthood2001&theme=vue&show_icons=true&hide_border=true">
+          <img src="https://github-readme-stats.vercel.app/api?username=Knighthood2001&theme=vue&show_icons=true&hide_border=true">
+        </picture>
+      </td>
+      <td>
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Knighthood2001&langs_count=10&theme=vue-dark&layout=compact&hide_border=true">
+          <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Knighthood2001&langs_count=10&theme=vue&layout=compact&hide_border=true">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Knighthood2001&langs_count=10&theme=vue&layout=compact&hide_border=true">
+        </picture>
+      </td>
+    </tr>
+  </tbody>
+</table> -->
 
 <!-- PYPI_STATS:Start -->
 
