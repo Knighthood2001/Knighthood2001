@@ -142,6 +142,8 @@
 </table>
 <p align="right"><sub>Last updated: 2025-08-11 02:26:08</sub></p>
 
+> Currently, the server for PyPI download statistics has an error, resulting in no results being displayed.
+
 <!-- PYPI_STATS:End -->
 
 
@@ -150,7 +152,7 @@
 <!-- ![GitHub Contribution Snake](/assets/images/github-contribution-snake.svg) -->
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Knighthood2001/Knighthood2001/master/assets/images/github-contribution-snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Knighthood2001/Knighthood2001/master/assets/images/github-contribution-snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Knighthood2001/Knighthood2001/master/assets/images/github-contribution-snake.svg">
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Knighthood2001/Knighthood2001/master/assets/images/github-contribution-snake.svg">
 </picture>
