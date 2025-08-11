@@ -140,9 +140,7 @@
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2025-08-11 02:26:08</sub></p>
-
-> Currently, the server for PyPI download statistics has an error, resulting in no results being displayed.
+<p align="right"><sub>Last updated: 2025-08-11 06:44:56</sub></p>
 
 <!-- PYPI_STATS:End -->
 
