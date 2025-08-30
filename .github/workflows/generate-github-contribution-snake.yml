@@ -55,8 +55,8 @@ jobs:
       # Commit the generated files.
       - name: Commit Files
         run: |
-          git config --global user.name "Knighthood2001"
-          git config --global user.email "2109695291@qq.com"
+          git config --global user.name "github-actions[Knighthood2001-bot]"
+          git config --global user.email "github-actions[Knighthood2001-bot]@users.noreply.github.com"
           git commit -a -m "Generate github contribution snake for Knighthood2001" || exit 0
       
       # Push the changes to GitHub.
