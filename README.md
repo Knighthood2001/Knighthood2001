@@ -115,32 +115,32 @@
   <tbody>
     <tr>
       <td><a href="https://pypi.org/project/ros-pointcloud-recorder/"><b>ros-pointcloud-recorder</b></a></td>
-      <td align="center">36</td>
-      <td align="center">2,599</td>
+      <td align="center">15</td>
+      <td align="center">2,614</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
-      <td align="center">26</td>
-      <td align="center">2,439</td>
+      <td align="center">18</td>
+      <td align="center">2,457</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2proj/"><b>tree2proj</b></a></td>
-      <td align="center">14</td>
-      <td align="center">1,001</td>
+      <td align="center">8</td>
+      <td align="center">1,009</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/auto-model-monitor/"><b>auto-model-monitor</b></a></td>
-      <td align="center">46</td>
-      <td align="center">3,081</td>
+      <td align="center">2</td>
+      <td align="center">3,083</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">122</td>
-      <td align="center">9,120</td>
+      <td align="center">43</td>
+      <td align="center">9,163</td>
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2025-09-10 12:51:13</sub></p>
+<p align="right"><sub>Last updated: 2025-09-11 01:55:58</sub></p>
 
 <!-- PYPI_STATS:End -->
 
