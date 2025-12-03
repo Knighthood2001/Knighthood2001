@@ -149,7 +149,6 @@
 
 <!-- PYPI_STATS:End -->
 
-> Currently, the server for PyPI download statistics has an error, resulting in no results being displayed.
 
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Knighthood2001&area=true&hide_border=true&theme=github-compact)
