@@ -134,13 +134,18 @@
       <td align="center">4,431</td>
     </tr>
     <tr>
+      <td><a href="https://pypi.org/project/numpytable/"><b>numpytable</b></a></td>
+      <td align="center">6</td>
+      <td align="center">547</td>
+    </tr>
+    <tr>
       <td><b>Total</b></td>
-      <td align="center">48</td>
-      <td align="center">12,538</td>
+      <td align="center">54</td>
+      <td align="center">13,085</td>
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2025-12-03 02:06:39</sub></p>
+<p align="right"><sub>Last updated: 2025-12-03 07:50:38</sub></p>
 
 <!-- PYPI_STATS:End -->
 
