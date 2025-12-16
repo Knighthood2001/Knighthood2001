@@ -115,12 +115,12 @@
   <tbody>
     <tr>
       <td><a href="https://pypi.org/project/ros-pointcloud-recorder/"><b>ros-pointcloud-recorder</b></a></td>
-      <td align="center">10</td>
+      <td align="center">0</td>
       <td align="center">3,426</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
-      <td align="center">0</td>
+      <td align="center">2</td>
       <td align="center">3,442</td>
     </tr>
     <tr>
@@ -130,7 +130,7 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/auto-model-monitor/"><b>auto-model-monitor</b></a></td>
-      <td align="center">0</td>
+      <td align="center">8</td>
       <td align="center">4,615</td>
     </tr>
     <tr>
@@ -145,7 +145,7 @@
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2025-12-16 02:12:17</sub></p>
+<p align="right"><sub>Last updated: 2025-12-16 13:00:44</sub></p>
 
 <!-- PYPI_STATS:End -->
 
