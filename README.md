@@ -120,7 +120,7 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
-      <td align="center">15</td>
+      <td align="center">16</td>
       <td align="center">3,472</td>
     </tr>
     <tr>
@@ -135,17 +135,17 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/numpytable/"><b>numpytable</b></a></td>
-      <td align="center">3</td>
+      <td align="center">6</td>
       <td align="center">606</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">41</td>
+      <td align="center">45</td>
       <td align="center">13,657</td>
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2025-12-18 02:07:41</sub></p>
+<p align="right"><sub>Last updated: 2025-12-18 12:59:10</sub></p>
 
 <!-- PYPI_STATS:End -->
 
