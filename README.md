@@ -125,12 +125,12 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2proj/"><b>tree2proj</b></a></td>
-      <td align="center">2</td>
+      <td align="center">1</td>
       <td align="center">1,743</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/auto-model-monitor/"><b>auto-model-monitor</b></a></td>
-      <td align="center">61</td>
+      <td align="center">45</td>
       <td align="center">5,841</td>
     </tr>
     <tr>
@@ -140,12 +140,12 @@
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">96</td>
+      <td align="center">79</td>
       <td align="center">16,225</td>
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2026-02-10 03:18:20</sub></p>
+<p align="right"><sub>Last updated: 2026-02-10 13:43:06</sub></p>
 
 <!-- PYPI_STATS:End -->
 
