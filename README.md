@@ -130,7 +130,7 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/auto-model-monitor/"><b>auto-model-monitor</b></a></td>
-      <td align="center">71</td>
+      <td align="center">59</td>
       <td align="center">6,041</td>
     </tr>
     <tr>
@@ -140,12 +140,12 @@
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">99</td>
+      <td align="center">87</td>
       <td align="center">16,563</td>
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2026-02-14 02:43:40</sub></p>
+<p align="right"><sub>Last updated: 2026-02-14 13:06:12</sub></p>
 
 <!-- PYPI_STATS:End -->
 
