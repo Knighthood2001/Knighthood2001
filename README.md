@@ -130,22 +130,22 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/auto-model-monitor/"><b>auto-model-monitor</b></a></td>
-      <td align="center">53</td>
+      <td align="center">80</td>
       <td align="center">6,094</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/numpytable/"><b>numpytable</b></a></td>
-      <td align="center">7</td>
+      <td align="center">8</td>
       <td align="center">865</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">96</td>
+      <td align="center">124</td>
       <td align="center">16,659</td>
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2026-02-15 02:56:57</sub></p>
+<p align="right"><sub>Last updated: 2026-02-15 13:08:02</sub></p>
 
 <!-- PYPI_STATS:End -->
 
