@@ -135,17 +135,17 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/numpytable/"><b>numpytable</b></a></td>
-      <td align="center">2</td>
+      <td align="center">0</td>
       <td align="center">942</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">33</td>
+      <td align="center">31</td>
       <td align="center">17,532</td>
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2026-03-12 02:47:03</sub></p>
+<p align="right"><sub>Last updated: 2026-03-12 13:19:41</sub></p>
 
 <!-- PYPI_STATS:End -->
 
