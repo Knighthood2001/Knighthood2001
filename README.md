@@ -125,7 +125,7 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2proj/"><b>tree2proj</b></a></td>
-      <td align="center">4</td>
+      <td align="center">0</td>
       <td align="center">1,973</td>
     </tr>
     <tr>
@@ -140,12 +140,12 @@
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">36</td>
+      <td align="center">32</td>
       <td align="center">18,529</td>
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2026-04-01 03:32:27</sub></p>
+<p align="right"><sub>Last updated: 2026-04-01 13:55:26</sub></p>
 
 <!-- PYPI_STATS:End -->
 
