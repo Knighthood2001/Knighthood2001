@@ -115,7 +115,7 @@
   <tbody>
     <tr>
       <td><a href="https://pypi.org/project/ros-pointcloud-recorder/"><b>ros-pointcloud-recorder</b></a></td>
-      <td align="center">5</td>
+      <td align="center">0</td>
       <td align="center">4,269</td>
     </tr>
     <tr>
@@ -140,12 +140,12 @@
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">29</td>
+      <td align="center">24</td>
       <td align="center">18,602</td>
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2026-04-04 02:50:14</sub></p>
+<p align="right"><sub>Last updated: 2026-04-04 13:13:24</sub></p>
 
 <!-- PYPI_STATS:End -->
 
