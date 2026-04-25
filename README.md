@@ -120,12 +120,12 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
-      <td align="center">12</td>
+      <td align="center">0</td>
       <td align="center">4,546</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2proj/"><b>tree2proj</b></a></td>
-      <td align="center">4</td>
+      <td align="center">0</td>
       <td align="center">2,050</td>
     </tr>
     <tr>
@@ -140,12 +140,12 @@
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">64</td>
+      <td align="center">48</td>
       <td align="center">19,343</td>
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2026-04-25 03:22:21</sub></p>
+<p align="right"><sub>Last updated: 2026-04-25 13:22:16</sub></p>
 
 <!-- PYPI_STATS:End -->
 
