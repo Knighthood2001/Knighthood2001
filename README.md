@@ -115,7 +115,7 @@
   <tbody>
     <tr>
       <td><a href="https://pypi.org/project/ros-pointcloud-recorder/"><b>ros-pointcloud-recorder</b></a></td>
-      <td align="center">0</td>
+      <td align="center">16</td>
       <td align="center">4,569</td>
     </tr>
     <tr>
@@ -130,7 +130,7 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/auto-model-monitor/"><b>auto-model-monitor</b></a></td>
-      <td align="center">0</td>
+      <td align="center">32</td>
       <td align="center">7,478</td>
     </tr>
     <tr>
@@ -140,12 +140,12 @@
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">37</td>
+      <td align="center">85</td>
       <td align="center">19,974</td>
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2026-05-10 04:01:06</sub></p>
+<p align="right"><sub>Last updated: 2026-05-10 13:45:52</sub></p>
 
 <!-- PYPI_STATS:End -->
 
