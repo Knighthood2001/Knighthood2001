@@ -120,32 +120,32 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
-      <td align="center">3</td>
+      <td align="center">2</td>
       <td align="center">4,882</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2proj/"><b>tree2proj</b></a></td>
-      <td align="center">3</td>
+      <td align="center">2</td>
       <td align="center">2,230</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/auto-model-monitor/"><b>auto-model-monitor</b></a></td>
-      <td align="center">0</td>
+      <td align="center">60</td>
       <td align="center">8,882</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/numpytable/"><b>numpytable</b></a></td>
-      <td align="center">3</td>
+      <td align="center">0</td>
       <td align="center">1,200</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">20</td>
+      <td align="center">75</td>
       <td align="center">21,922</td>
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2026-06-13 04:38:55</sub></p>
+<p align="right"><sub>Last updated: 2026-06-13 14:17:59</sub></p>
 
 <!-- PYPI_STATS:End -->
 
