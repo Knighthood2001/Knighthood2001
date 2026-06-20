@@ -115,17 +115,17 @@
   <tbody>
     <tr>
       <td><a href="https://pypi.org/project/ros-pointcloud-recorder/"><b>ros-pointcloud-recorder</b></a></td>
-      <td align="center">2</td>
+      <td align="center">0</td>
       <td align="center">4,730</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
-      <td align="center">7</td>
+      <td align="center">0</td>
       <td align="center">4,909</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2proj/"><b>tree2proj</b></a></td>
-      <td align="center">0</td>
+      <td align="center">1</td>
       <td align="center">2,237</td>
     </tr>
     <tr>
@@ -135,17 +135,17 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/numpytable/"><b>numpytable</b></a></td>
-      <td align="center">0</td>
+      <td align="center">7</td>
       <td align="center">1,207</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">9</td>
+      <td align="center">8</td>
       <td align="center">22,248</td>
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2026-06-20 04:22:18</sub></p>
+<p align="right"><sub>Last updated: 2026-06-20 14:21:46</sub></p>
 
 <!-- PYPI_STATS:End -->
 
