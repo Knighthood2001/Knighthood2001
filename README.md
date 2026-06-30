@@ -115,12 +115,12 @@
   <tbody>
     <tr>
       <td><a href="https://pypi.org/project/ros-pointcloud-recorder/"><b>ros-pointcloud-recorder</b></a></td>
-      <td align="center">0</td>
+      <td align="center">11</td>
       <td align="center">4,795</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
-      <td align="center">3</td>
+      <td align="center">7</td>
       <td align="center">4,971</td>
     </tr>
     <tr>
@@ -140,12 +140,12 @@
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">13</td>
+      <td align="center">28</td>
       <td align="center">22,816</td>
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2026-06-30 04:16:12</sub></p>
+<p align="right"><sub>Last updated: 2026-06-30 14:35:09</sub></p>
 
 <!-- PYPI_STATS:End -->
 
