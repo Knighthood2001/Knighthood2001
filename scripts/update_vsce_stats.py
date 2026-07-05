@@ -137,7 +137,7 @@ def update_readme(extension_list):
     save_historical_data(historical_data)
 
     stats_content = """
-<h3>VS Code Extension Download Statistics</h3>
+<h3>Vscode Extension Statistics</h3>
 <table>
   <thead align="center">
     <tr border: none;>

@@ -58,7 +58,7 @@ def update_readme(package_list):
 
     # 生成精美的表格内容
     stats_content = """
-<h3>PyPI Download Statistics</h3>
+<h3>PyPI Statistics</h3>
 <table>
   <thead align="center">
     <tr border: none;>
