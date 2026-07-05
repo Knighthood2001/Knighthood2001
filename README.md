@@ -101,6 +101,10 @@
   </tbody>
 </table>
 
+<table>
+  <tr>
+    <td valign="top" width="50%">
+
 <!-- PYPI_STATS:Start -->
 
 <h3>PyPI Download Statistics</h3>
@@ -115,7 +119,7 @@
   <tbody>
     <tr>
       <td><a href="https://pypi.org/project/ros-pointcloud-recorder/"><b>ros-pointcloud-recorder</b></a></td>
-      <td align="center">24</td>
+      <td align="center">0</td>
       <td align="center">4,802</td>
     </tr>
     <tr>
@@ -130,7 +134,7 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/auto-model-monitor/"><b>auto-model-monitor</b></a></td>
-      <td align="center">26</td>
+      <td align="center">0</td>
       <td align="center">9,673</td>
     </tr>
     <tr>
@@ -139,21 +143,65 @@
       <td align="center">1,283</td>
     </tr>
     <tr>
-      <td><a href="https://pypi.org/project/vsce-downloads/"><b>vsce-downloads</b></a></td>
-      <td align="center">791</td>
-      <td align="center">791</td>
-    </tr>
-    <tr>
       <td><b>Total</b></td>
-      <td align="center">855</td>
-      <td align="center">23,844</td>
+      <td align="center">14</td>
+      <td align="center">23,053</td>
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2026-07-05 07:35:03</sub></p>
+<p align="right"><sub>Last updated: 2026-07-05 04:10:42</sub></p>
 
 <!-- PYPI_STATS:End -->
+
+    </td>
+    <td valign="top" width="50%">
+
+<!-- VSCE_STATS:Start -->
+
+<h3>VS Code Extension Download Statistics</h3>
+<table>
+  <thead align="center">
+    <tr border: none;>
+      <td><b>🧩 Extension</b></td>
+      <td><b>📊 Last 24h</b></td>
+      <td><b>📥 Total</b></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.urdf-formatting"><b>urdf-formatting</b></a></td>
+      <td align="center">0</td>
+      <td align="center">1,277</td>
+    </tr>
+    <tr>
+      <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros-quick-runner"><b>ros-quick-runner</b></a></td>
+      <td align="center">0</td>
+      <td align="center">526</td>
+    </tr>
+    <tr>
+      <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros2-quick-runner"><b>ros2-quick-runner</b></a></td>
+      <td align="center">0</td>
+      <td align="center">186</td>
+    </tr>
+    <tr>
+      <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.md-translator"><b>md-translator</b></a></td>
+      <td align="center">0</td>
+      <td align="center">924</td>
+    </tr>
+    <tr>
+      <td><b>Total</b></td>
+      <td align="center">0</td>
+      <td align="center">2,913</td>
+    </tr>
+  </tbody>
+</table>
+<p align="right"><sub>Last updated: 2026-07-05 15:12:51</sub></p>
+
 <!-- VSCE_STATS:End -->
+
+    </td>
+  </tr>
+</table>
 
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Knighthood2001&area=true&hide_border=true&theme=github-compact)
