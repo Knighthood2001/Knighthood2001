@@ -107,7 +107,7 @@
 
 <!-- PYPI_STATS:Start -->
 
-<h3>PyPI Download Statistics</h3>
+<h3>PyPI Statistics</h3>
 <table>
   <thead align="center">
     <tr border: none;>
@@ -162,7 +162,7 @@
 
 <!-- VSCE_STATS:Start -->
 
-<h3>VS Code Extension Download Statistics</h3>
+<h3>Vscode Extension Statistics</h3>
 <table>
   <thead align="center">
     <tr border: none;>
@@ -185,7 +185,7 @@
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros2-quick-runner"><b>ros2-quick-runner</b></a></td>
       <td align="center">0</td>
-      <td align="center">186</td>
+      <td align="center">187</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.md-translator"><b>md-translator</b></a></td>
@@ -195,7 +195,7 @@
     <tr>
       <td><b>Total</b></td>
       <td align="center">0</td>
-      <td align="center">2,913</td>
+      <td align="center">2,914</td>
     </tr>
   </tbody>
 </table>
