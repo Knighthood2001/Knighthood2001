@@ -149,6 +149,49 @@
 
 <!-- PYPI_STATS:End -->
 
+<!-- VSCE_STATS:Start -->
+
+<h3>VS Code Extension Download Statistics</h3>
+<table>
+  <thead align="center">
+    <tr border: none;>
+      <td><b>🧩 Extension</b></td>
+      <td><b>📊 Last 24h</b></td>
+      <td><b>📥 Total</b></td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.urdf-formatting"><b>urdf-formatting</b></a></td>
+      <td align="center">0</td>
+      <td align="center">1,277</td>
+    </tr>
+    <tr>
+      <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros-quick-runner"><b>ros-quick-runner</b></a></td>
+      <td align="center">0</td>
+      <td align="center">526</td>
+    </tr>
+    <tr>
+      <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros2-quick-runner"><b>ros2-quick-runner</b></a></td>
+      <td align="center">0</td>
+      <td align="center">186</td>
+    </tr>
+    <tr>
+      <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.md-translator"><b>md-translator</b></a></td>
+      <td align="center">0</td>
+      <td align="center">924</td>
+    </tr>
+    <tr>
+      <td><b>Total</b></td>
+      <td align="center">0</td>
+      <td align="center">2,913</td>
+    </tr>
+  </tbody>
+</table>
+<p align="right"><sub>Last updated: 2026-07-05 15:12:51</sub></p>
+
+<!-- VSCE_STATS:End -->
+
 
 
 ![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Knighthood2001&area=true&hide_border=true&theme=github-compact)
