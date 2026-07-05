@@ -85,7 +85,6 @@ def update_readme(package_list):
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</sub></p>
 """
 
     try:

@@ -149,12 +149,11 @@
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2026-07-05 04:10:42</sub></p>
 
 <!-- PYPI_STATS:End -->
 
-    </td>
-    <td valign="top" width="50%">
+</td>
+<td valign="top" width="50%">
 
 <!-- VSCE_STATS:Start -->
 
@@ -195,11 +194,10 @@
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2026-07-05 15:12:51</sub></p>
 
 <!-- VSCE_STATS:End -->
 
-    </td>
+  </td>
   </tr>
 </table>
 
