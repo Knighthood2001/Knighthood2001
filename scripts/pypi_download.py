@@ -38,7 +38,7 @@ def get_package_downloads(package_name):
 
 
 if __name__ == "__main__":
-    package_list = ["ros-pointcloud-recorder", "tree2json", "tree2proj", "auto-model-monitor"]
+    package_list = ["ros-pointcloud-recorder", "tree2json", "tree2proj", "auto-model-monitor", "vsce-downloads"]
     for pkg in package_list:
         time.sleep(1)
         result = get_package_downloads(pkg)

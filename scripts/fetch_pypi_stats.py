@@ -1,15 +1,4 @@
 import requests
-import os
-import json
-from datetime import datetime
-
-import requests
-import os
-import re
-import json
-from datetime import datetime
-import time
-from pathlib import Path
 
 def get_package_downloads(package_name):
     """获取单个包的最近1天下载量和总下载量"""
@@ -40,7 +29,7 @@ def get_package_downloads(package_name):
         }
 
 if __name__ == "__main__":
-    package_name = "tree2proj"
+    package_name = "vsce-downloads"
     stats = get_package_downloads(package_name)
     print(stats)
 
