@@ -115,7 +115,7 @@
   <tbody>
     <tr>
       <td><a href="https://pypi.org/project/ros-pointcloud-recorder/"><b>ros-pointcloud-recorder</b></a></td>
-      <td align="center">0</td>
+      <td align="center">24</td>
       <td align="center">4,802</td>
     </tr>
     <tr>
@@ -130,7 +130,7 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/auto-model-monitor/"><b>auto-model-monitor</b></a></td>
-      <td align="center">0</td>
+      <td align="center">26</td>
       <td align="center">9,673</td>
     </tr>
     <tr>
@@ -139,13 +139,18 @@
       <td align="center">1,283</td>
     </tr>
     <tr>
+      <td><a href="https://pypi.org/project/vsce-downloads/"><b>vsce-downloads</b></a></td>
+      <td align="center">592</td>
+      <td align="center">1,383</td>
+    </tr>
+    <tr>
       <td><b>Total</b></td>
-      <td align="center">14</td>
-      <td align="center">23,053</td>
+      <td align="center">656</td>
+      <td align="center">24,436</td>
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2026-07-05 04:10:42</sub></p>
+<p align="right"><sub>Last updated: 2026-07-05 07:17:08</sub></p>
 
 <!-- PYPI_STATS:End -->
 
@@ -188,7 +193,7 @@
     </tr>
   </tbody>
 </table>
-<p align="right"><sub>Last updated: 2026-07-05 15:12:51</sub></p>
+<p align="right"><sub>Last updated: 2026-07-05 07:17:12</sub></p>
 
 <!-- VSCE_STATS:End -->
 
