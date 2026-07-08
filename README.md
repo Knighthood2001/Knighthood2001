@@ -119,12 +119,12 @@
   <tbody>
     <tr>
       <td><a href="https://pypi.org/project/ros-pointcloud-recorder/"><b>ros-pointcloud-recorder</b></a></td>
-      <td align="center">5</td>
+      <td align="center">0</td>
       <td align="center">4,821</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
-      <td align="center">2</td>
+      <td align="center">0</td>
       <td align="center">5,001</td>
     </tr>
     <tr>
@@ -134,7 +134,7 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/auto-model-monitor/"><b>auto-model-monitor</b></a></td>
-      <td align="center">33</td>
+      <td align="center">26</td>
       <td align="center">9,757</td>
     </tr>
     <tr>
@@ -144,12 +144,12 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/vsce-downloads/"><b>vsce-downloads</b></a></td>
-      <td align="center">14</td>
+      <td align="center">10</td>
       <td align="center">887</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">64</td>
+      <td align="center">46</td>
       <td align="center">24,072</td>
     </tr>
   </tbody>
@@ -175,7 +175,7 @@
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.urdf-formatting"><b>urdf-formatting</b></a></td>
       <td align="center">4</td>
-      <td align="center">1,286</td>
+      <td align="center">1,287</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros-quick-runner"><b>ros-quick-runner</b></a></td>
@@ -185,17 +185,17 @@
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros2-quick-runner"><b>ros2-quick-runner</b></a></td>
       <td align="center">3</td>
-      <td align="center">192</td>
+      <td align="center">193</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.md-translator"><b>md-translator</b></a></td>
-      <td align="center">3</td>
-      <td align="center">930</td>
+      <td align="center">4</td>
+      <td align="center">931</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">10</td>
-      <td align="center">2,934</td>
+      <td align="center">11</td>
+      <td align="center">2,937</td>
     </tr>
   </tbody>
 </table>
