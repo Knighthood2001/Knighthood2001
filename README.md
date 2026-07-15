@@ -124,7 +124,7 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
-      <td align="center">2</td>
+      <td align="center">3</td>
       <td align="center">5,044</td>
     </tr>
     <tr>
@@ -134,22 +134,22 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/auto-model-monitor/"><b>auto-model-monitor</b></a></td>
-      <td align="center">28</td>
+      <td align="center">24</td>
       <td align="center">9,850</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/numpytable/"><b>numpytable</b></a></td>
-      <td align="center">5</td>
+      <td align="center">4</td>
       <td align="center">1,320</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/vsce-downloads/"><b>vsce-downloads</b></a></td>
-      <td align="center">16</td>
+      <td align="center">11</td>
       <td align="center">1,018</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">55</td>
+      <td align="center">46</td>
       <td align="center">24,437</td>
     </tr>
   </tbody>
@@ -174,7 +174,7 @@
   <tbody>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.urdf-formatting"><b>urdf-formatting</b></a></td>
-      <td align="center">3</td>
+      <td align="center">1</td>
       <td align="center">1,300</td>
     </tr>
     <tr>
@@ -184,18 +184,18 @@
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros2-quick-runner"><b>ros2-quick-runner</b></a></td>
-      <td align="center">5</td>
-      <td align="center">207</td>
+      <td align="center">3</td>
+      <td align="center">208</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.md-translator"><b>md-translator</b></a></td>
-      <td align="center">4</td>
+      <td align="center">1</td>
       <td align="center">945</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">14</td>
-      <td align="center">2,984</td>
+      <td align="center">7</td>
+      <td align="center">2,985</td>
     </tr>
   </tbody>
 </table>
