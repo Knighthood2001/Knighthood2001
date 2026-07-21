@@ -134,7 +134,7 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/auto-model-monitor/"><b>auto-model-monitor</b></a></td>
-      <td align="center">24</td>
+      <td align="center">43</td>
       <td align="center">10,019</td>
     </tr>
     <tr>
@@ -144,12 +144,12 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/vsce-downloads/"><b>vsce-downloads</b></a></td>
-      <td align="center">24</td>
+      <td align="center">20</td>
       <td align="center">1,114</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">73</td>
+      <td align="center">88</td>
       <td align="center">24,893</td>
     </tr>
   </tbody>
@@ -184,8 +184,8 @@
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros2-quick-runner"><b>ros2-quick-runner</b></a></td>
-      <td align="center">3</td>
-      <td align="center">220</td>
+      <td align="center">2</td>
+      <td align="center">221</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.md-translator"><b>md-translator</b></a></td>
@@ -194,8 +194,8 @@
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">8</td>
-      <td align="center">3,020</td>
+      <td align="center">7</td>
+      <td align="center">3,021</td>
     </tr>
   </tbody>
 </table>
