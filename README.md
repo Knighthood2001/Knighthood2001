@@ -174,7 +174,7 @@
   <tbody>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.urdf-formatting"><b>urdf-formatting</b></a></td>
-      <td align="center">1</td>
+      <td align="center">0</td>
       <td align="center">1,330</td>
     </tr>
     <tr>
@@ -189,13 +189,13 @@
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.md-translator"><b>md-translator</b></a></td>
-      <td align="center">2</td>
-      <td align="center">969</td>
+      <td align="center">3</td>
+      <td align="center">970</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
       <td align="center">6</td>
-      <td align="center">3,075</td>
+      <td align="center">3,076</td>
     </tr>
   </tbody>
 </table>
