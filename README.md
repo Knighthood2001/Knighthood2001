@@ -129,7 +129,7 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2proj/"><b>tree2proj</b></a></td>
-      <td align="center">5</td>
+      <td align="center">6</td>
       <td align="center">2,444</td>
     </tr>
     <tr>
@@ -149,7 +149,7 @@
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">45</td>
+      <td align="center">46</td>
       <td align="center">25,500</td>
     </tr>
   </tbody>
@@ -184,18 +184,18 @@
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros2-quick-runner"><b>ros2-quick-runner</b></a></td>
-      <td align="center">3</td>
+      <td align="center">2</td>
       <td align="center">251</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.md-translator"><b>md-translator</b></a></td>
       <td align="center">4</td>
-      <td align="center">980</td>
+      <td align="center">981</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">11</td>
-      <td align="center">3,115</td>
+      <td align="center">10</td>
+      <td align="center">3,116</td>
     </tr>
   </tbody>
 </table>
