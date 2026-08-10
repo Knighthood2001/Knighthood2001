@@ -124,7 +124,7 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
-      <td align="center">10</td>
+      <td align="center">5</td>
       <td align="center">5,225</td>
     </tr>
     <tr>
@@ -139,7 +139,7 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/numpytable/"><b>numpytable</b></a></td>
-      <td align="center">6</td>
+      <td align="center">3</td>
       <td align="center">1,406</td>
     </tr>
     <tr>
@@ -149,7 +149,7 @@
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">43</td>
+      <td align="center">35</td>
       <td align="center">25,828</td>
     </tr>
   </tbody>
@@ -184,8 +184,8 @@
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros2-quick-runner"><b>ros2-quick-runner</b></a></td>
-      <td align="center">2</td>
-      <td align="center">262</td>
+      <td align="center">1</td>
+      <td align="center">263</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.md-translator"><b>md-translator</b></a></td>
@@ -194,8 +194,8 @@
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">3</td>
-      <td align="center">3,145</td>
+      <td align="center">2</td>
+      <td align="center">3,146</td>
     </tr>
   </tbody>
 </table>
