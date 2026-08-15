@@ -124,17 +124,17 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
-      <td align="center">15</td>
+      <td align="center">10</td>
       <td align="center">5,258</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2proj/"><b>tree2proj</b></a></td>
-      <td align="center">6</td>
+      <td align="center">4</td>
       <td align="center">2,483</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/auto-model-monitor/"><b>auto-model-monitor</b></a></td>
-      <td align="center">13</td>
+      <td align="center">4</td>
       <td align="center">10,446</td>
     </tr>
     <tr>
@@ -144,12 +144,12 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/vsce-downloads/"><b>vsce-downloads</b></a></td>
-      <td align="center">4</td>
+      <td align="center">13</td>
       <td align="center">1,365</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">50</td>
+      <td align="center">43</td>
       <td align="center">26,087</td>
     </tr>
   </tbody>
@@ -174,7 +174,7 @@
   <tbody>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.urdf-formatting"><b>urdf-formatting</b></a></td>
-      <td align="center">4</td>
+      <td align="center">2</td>
       <td align="center">1,374</td>
     </tr>
     <tr>
@@ -184,17 +184,17 @@
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros2-quick-runner"><b>ros2-quick-runner</b></a></td>
-      <td align="center">2</td>
+      <td align="center">1</td>
       <td align="center">268</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.md-translator"><b>md-translator</b></a></td>
-      <td align="center">3</td>
+      <td align="center">1</td>
       <td align="center">990</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">10</td>
+      <td align="center">5</td>
       <td align="center">3,169</td>
     </tr>
   </tbody>
