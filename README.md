@@ -174,8 +174,8 @@
   <tbody>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.urdf-formatting"><b>urdf-formatting</b></a></td>
-      <td align="center">2</td>
-      <td align="center">1,383</td>
+      <td align="center">4</td>
+      <td align="center">1,385</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros-quick-runner"><b>ros-quick-runner</b></a></td>
@@ -184,7 +184,7 @@
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros2-quick-runner"><b>ros2-quick-runner</b></a></td>
-      <td align="center">3</td>
+      <td align="center">2</td>
       <td align="center">276</td>
     </tr>
     <tr>
@@ -194,8 +194,8 @@
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">6</td>
-      <td align="center">3,190</td>
+      <td align="center">7</td>
+      <td align="center">3,192</td>
     </tr>
   </tbody>
 </table>
