@@ -120,37 +120,37 @@
     <tr>
       <td><a href="https://pypi.org/project/ros-pointcloud-recorder/"><b>ros-pointcloud-recorder</b></a></td>
       <td align="center">9</td>
-      <td align="center">5,134</td>
+      <td align="center">5,143</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
-      <td align="center">2</td>
-      <td align="center">5,275</td>
+      <td align="center">8</td>
+      <td align="center">5,283</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2proj/"><b>tree2proj</b></a></td>
-      <td align="center">1</td>
-      <td align="center">2,491</td>
+      <td align="center">6</td>
+      <td align="center">2,497</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/auto-model-monitor/"><b>auto-model-monitor</b></a></td>
-      <td align="center">42</td>
-      <td align="center">10,536</td>
+      <td align="center">25</td>
+      <td align="center">10,561</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/numpytable/"><b>numpytable</b></a></td>
-      <td align="center">9</td>
-      <td align="center">1,445</td>
+      <td align="center">2</td>
+      <td align="center">1,447</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/vsce-downloads/"><b>vsce-downloads</b></a></td>
-      <td align="center">11</td>
-      <td align="center">1,400</td>
+      <td align="center">4</td>
+      <td align="center">1,404</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">74</td>
-      <td align="center">26,281</td>
+      <td align="center">54</td>
+      <td align="center">26,335</td>
     </tr>
   </tbody>
 </table>
@@ -184,18 +184,18 @@
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros2-quick-runner"><b>ros2-quick-runner</b></a></td>
-      <td align="center">2</td>
-      <td align="center">276</td>
+      <td align="center">3</td>
+      <td align="center">277</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.md-translator"><b>md-translator</b></a></td>
-      <td align="center">1</td>
-      <td align="center">993</td>
+      <td align="center">2</td>
+      <td align="center">994</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">7</td>
-      <td align="center">3,192</td>
+      <td align="center">9</td>
+      <td align="center">3,194</td>
     </tr>
   </tbody>
 </table>
