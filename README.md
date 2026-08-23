@@ -144,12 +144,12 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/vsce-downloads/"><b>vsce-downloads</b></a></td>
-      <td align="center">8</td>
+      <td align="center">12</td>
       <td align="center">1,428</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">34</td>
+      <td align="center">38</td>
       <td align="center">26,425</td>
     </tr>
   </tbody>
@@ -175,7 +175,7 @@
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.urdf-formatting"><b>urdf-formatting</b></a></td>
       <td align="center">1</td>
-      <td align="center">1,390</td>
+      <td align="center">1,391</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros-quick-runner"><b>ros-quick-runner</b></a></td>
@@ -184,18 +184,18 @@
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros2-quick-runner"><b>ros2-quick-runner</b></a></td>
-      <td align="center">1</td>
+      <td align="center">0</td>
       <td align="center">281</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.md-translator"><b>md-translator</b></a></td>
-      <td align="center">0</td>
-      <td align="center">996</td>
+      <td align="center">1</td>
+      <td align="center">997</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
       <td align="center">2</td>
-      <td align="center">3,205</td>
+      <td align="center">3,207</td>
     </tr>
   </tbody>
 </table>
