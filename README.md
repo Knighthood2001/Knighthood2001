@@ -119,7 +119,7 @@
   <tbody>
     <tr>
       <td><a href="https://pypi.org/project/ros-pointcloud-recorder/"><b>ros-pointcloud-recorder</b></a></td>
-      <td align="center">3</td>
+      <td align="center">2</td>
       <td align="center">5,170</td>
     </tr>
     <tr>
@@ -144,12 +144,12 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/vsce-downloads/"><b>vsce-downloads</b></a></td>
-      <td align="center">6</td>
+      <td align="center">8</td>
       <td align="center">1,448</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">48</td>
+      <td align="center">49</td>
       <td align="center">26,537</td>
     </tr>
   </tbody>
@@ -174,7 +174,7 @@
   <tbody>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.urdf-formatting"><b>urdf-formatting</b></a></td>
-      <td align="center">1</td>
+      <td align="center">0</td>
       <td align="center">1,393</td>
     </tr>
     <tr>
@@ -189,13 +189,13 @@
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.md-translator"><b>md-translator</b></a></td>
-      <td align="center">2</td>
-      <td align="center">1,003</td>
+      <td align="center">1</td>
+      <td align="center">1,004</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">5</td>
-      <td align="center">3,223</td>
+      <td align="center">3</td>
+      <td align="center">3,224</td>
     </tr>
   </tbody>
 </table>
