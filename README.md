@@ -179,23 +179,23 @@
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros-quick-runner"><b>ros-quick-runner</b></a></td>
-      <td align="center">0</td>
-      <td align="center">539</td>
+      <td align="center">4</td>
+      <td align="center">543</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros2-quick-runner"><b>ros2-quick-runner</b></a></td>
-      <td align="center">8</td>
-      <td align="center">297</td>
+      <td align="center">9</td>
+      <td align="center">298</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.md-translator"><b>md-translator</b></a></td>
-      <td align="center">2</td>
-      <td align="center">1,006</td>
+      <td align="center">3</td>
+      <td align="center">1,007</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">12</td>
-      <td align="center">3,239</td>
+      <td align="center">18</td>
+      <td align="center">3,245</td>
     </tr>
   </tbody>
 </table>
