@@ -124,13 +124,13 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
-      <td align="center">0</td>
-      <td align="center">5,369</td>
+      <td align="center">11</td>
+      <td align="center">5,380</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2proj/"><b>tree2proj</b></a></td>
-      <td align="center">3</td>
-      <td align="center">2,548</td>
+      <td align="center">5</td>
+      <td align="center">2,553</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/auto-model-monitor/"><b>auto-model-monitor</b></a></td>
@@ -139,18 +139,18 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/numpytable/"><b>numpytable</b></a></td>
-      <td align="center">1</td>
-      <td align="center">1,486</td>
+      <td align="center">4</td>
+      <td align="center">1,490</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/vsce-downloads/"><b>vsce-downloads</b></a></td>
-      <td align="center">12</td>
+      <td align="center">0</td>
       <td align="center">1,478</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">16</td>
-      <td align="center">26,757</td>
+      <td align="center">20</td>
+      <td align="center">26,777</td>
     </tr>
   </tbody>
 </table>
