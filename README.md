@@ -139,7 +139,7 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/numpytable/"><b>numpytable</b></a></td>
-      <td align="center">10</td>
+      <td align="center">7</td>
       <td align="center">1,500</td>
     </tr>
     <tr>
@@ -149,7 +149,7 @@
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">40</td>
+      <td align="center">37</td>
       <td align="center">26,823</td>
     </tr>
   </tbody>
