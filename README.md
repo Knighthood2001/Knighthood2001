@@ -124,7 +124,7 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
-      <td align="center">11</td>
+      <td align="center">12</td>
       <td align="center">5,428</td>
     </tr>
     <tr>
@@ -149,7 +149,7 @@
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">54</td>
+      <td align="center">55</td>
       <td align="center">27,078</td>
     </tr>
   </tbody>
@@ -174,8 +174,8 @@
   <tbody>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.urdf-formatting"><b>urdf-formatting</b></a></td>
-      <td align="center">5</td>
-      <td align="center">1,423</td>
+      <td align="center">3</td>
+      <td align="center">1,424</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros-quick-runner"><b>ros-quick-runner</b></a></td>
@@ -190,12 +190,12 @@
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.md-translator"><b>md-translator</b></a></td>
       <td align="center">2</td>
-      <td align="center">1,024</td>
+      <td align="center">1,026</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">9</td>
-      <td align="center">3,307</td>
+      <td align="center">7</td>
+      <td align="center">3,310</td>
     </tr>
   </tbody>
 </table>
