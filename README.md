@@ -144,12 +144,12 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/vsce-downloads/"><b>vsce-downloads</b></a></td>
-      <td align="center">4</td>
+      <td align="center">2</td>
       <td align="center">1,546</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">25</td>
+      <td align="center">23</td>
       <td align="center">27,132</td>
     </tr>
   </tbody>
