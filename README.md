@@ -124,7 +124,7 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
-      <td align="center">8</td>
+      <td align="center">9</td>
       <td align="center">5,597</td>
     </tr>
     <tr>
@@ -134,7 +134,7 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/auto-model-monitor/"><b>auto-model-monitor</b></a></td>
-      <td align="center">2</td>
+      <td align="center">3</td>
       <td align="center">10,981</td>
     </tr>
     <tr>
@@ -149,7 +149,7 @@
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">32</td>
+      <td align="center">34</td>
       <td align="center">27,964</td>
     </tr>
   </tbody>
@@ -175,27 +175,27 @@
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.urdf-formatting"><b>urdf-formatting</b></a></td>
       <td align="center">10</td>
-      <td align="center">1,515</td>
+      <td align="center">1,521</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros-quick-runner"><b>ros-quick-runner</b></a></td>
-      <td align="center">0</td>
-      <td align="center">555</td>
+      <td align="center">1</td>
+      <td align="center">556</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros2-quick-runner"><b>ros2-quick-runner</b></a></td>
-      <td align="center">3</td>
-      <td align="center">377</td>
+      <td align="center">2</td>
+      <td align="center">379</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.md-translator"><b>md-translator</b></a></td>
-      <td align="center">3</td>
-      <td align="center">1,063</td>
+      <td align="center">1</td>
+      <td align="center">1,064</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">16</td>
-      <td align="center">3,510</td>
+      <td align="center">14</td>
+      <td align="center">3,520</td>
     </tr>
   </tbody>
 </table>
