@@ -120,37 +120,37 @@
     <tr>
       <td><a href="https://pypi.org/project/ros-pointcloud-recorder/"><b>ros-pointcloud-recorder</b></a></td>
       <td align="center">2</td>
-      <td align="center">5,403</td>
+      <td align="center">5,405</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
-      <td align="center">9</td>
-      <td align="center">5,597</td>
+      <td align="center">1</td>
+      <td align="center">5,598</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2proj/"><b>tree2proj</b></a></td>
       <td align="center">6</td>
-      <td align="center">2,680</td>
+      <td align="center">2,686</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/auto-model-monitor/"><b>auto-model-monitor</b></a></td>
-      <td align="center">3</td>
-      <td align="center">10,981</td>
+      <td align="center">24</td>
+      <td align="center">11,005</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/numpytable/"><b>numpytable</b></a></td>
-      <td align="center">5</td>
-      <td align="center">1,618</td>
+      <td align="center">2</td>
+      <td align="center">1,620</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/vsce-downloads/"><b>vsce-downloads</b></a></td>
-      <td align="center">9</td>
-      <td align="center">1,685</td>
+      <td align="center">3</td>
+      <td align="center">1,688</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">34</td>
-      <td align="center">27,964</td>
+      <td align="center">38</td>
+      <td align="center">28,002</td>
     </tr>
   </tbody>
 </table>
@@ -174,7 +174,7 @@
   <tbody>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.urdf-formatting"><b>urdf-formatting</b></a></td>
-      <td align="center">10</td>
+      <td align="center">6</td>
       <td align="center">1,521</td>
     </tr>
     <tr>
@@ -194,7 +194,7 @@
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">14</td>
+      <td align="center">10</td>
       <td align="center">3,520</td>
     </tr>
   </tbody>
