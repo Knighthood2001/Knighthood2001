@@ -124,7 +124,7 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
-      <td align="center">1</td>
+      <td align="center">2</td>
       <td align="center">5,598</td>
     </tr>
     <tr>
@@ -144,12 +144,12 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/vsce-downloads/"><b>vsce-downloads</b></a></td>
-      <td align="center">3</td>
+      <td align="center">5</td>
       <td align="center">1,688</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">38</td>
+      <td align="center">41</td>
       <td align="center">28,002</td>
     </tr>
   </tbody>
@@ -174,8 +174,8 @@
   <tbody>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.urdf-formatting"><b>urdf-formatting</b></a></td>
-      <td align="center">6</td>
-      <td align="center">1,521</td>
+      <td align="center">11</td>
+      <td align="center">1,526</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros-quick-runner"><b>ros-quick-runner</b></a></td>
@@ -189,13 +189,13 @@
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.md-translator"><b>md-translator</b></a></td>
-      <td align="center">1</td>
-      <td align="center">1,064</td>
+      <td align="center">2</td>
+      <td align="center">1,065</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">10</td>
-      <td align="center">3,520</td>
+      <td align="center">16</td>
+      <td align="center">3,526</td>
     </tr>
   </tbody>
 </table>
