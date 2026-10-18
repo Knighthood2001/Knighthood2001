@@ -184,7 +184,7 @@
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros2-quick-runner"><b>ros2-quick-runner</b></a></td>
-      <td align="center">3</td>
+      <td align="center">2</td>
       <td align="center">396</td>
     </tr>
     <tr>
@@ -194,7 +194,7 @@
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">4</td>
+      <td align="center">3</td>
       <td align="center">3,603</td>
     </tr>
   </tbody>
