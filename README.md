@@ -119,38 +119,38 @@
   <tbody>
     <tr>
       <td><a href="https://pypi.org/project/ros-pointcloud-recorder/"><b>ros-pointcloud-recorder</b></a></td>
-      <td align="center">30</td>
-      <td align="center">5,501</td>
+      <td align="center">10</td>
+      <td align="center">5,511</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
-      <td align="center">1</td>
-      <td align="center">5,637</td>
+      <td align="center">10</td>
+      <td align="center">5,647</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2proj/"><b>tree2proj</b></a></td>
-      <td align="center">7</td>
-      <td align="center">2,736</td>
+      <td align="center">4</td>
+      <td align="center">2,740</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/auto-model-monitor/"><b>auto-model-monitor</b></a></td>
-      <td align="center">6</td>
-      <td align="center">11,134</td>
+      <td align="center">4</td>
+      <td align="center">11,138</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/numpytable/"><b>numpytable</b></a></td>
-      <td align="center">4</td>
-      <td align="center">1,664</td>
+      <td align="center">1</td>
+      <td align="center">1,665</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/vsce-downloads/"><b>vsce-downloads</b></a></td>
-      <td align="center">4</td>
-      <td align="center">1,768</td>
+      <td align="center">7</td>
+      <td align="center">1,775</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">52</td>
-      <td align="center">28,440</td>
+      <td align="center">36</td>
+      <td align="center">28,476</td>
     </tr>
   </tbody>
 </table>
@@ -174,8 +174,8 @@
   <tbody>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.urdf-formatting"><b>urdf-formatting</b></a></td>
-      <td align="center">1</td>
-      <td align="center">1,561</td>
+      <td align="center">2</td>
+      <td align="center">1,563</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros-quick-runner"><b>ros-quick-runner</b></a></td>
@@ -184,18 +184,18 @@
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros2-quick-runner"><b>ros2-quick-runner</b></a></td>
-      <td align="center">2</td>
-      <td align="center">396</td>
+      <td align="center">1</td>
+      <td align="center">397</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.md-translator"><b>md-translator</b></a></td>
-      <td align="center">0</td>
-      <td align="center">1,080</td>
+      <td align="center">1</td>
+      <td align="center">1,081</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">3</td>
-      <td align="center">3,603</td>
+      <td align="center">4</td>
+      <td align="center">3,607</td>
     </tr>
   </tbody>
 </table>
