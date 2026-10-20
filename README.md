@@ -184,18 +184,18 @@
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros2-quick-runner"><b>ros2-quick-runner</b></a></td>
-      <td align="center">3</td>
-      <td align="center">400</td>
+      <td align="center">4</td>
+      <td align="center">401</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.md-translator"><b>md-translator</b></a></td>
-      <td align="center">3</td>
-      <td align="center">1,084</td>
+      <td align="center">4</td>
+      <td align="center">1,085</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">7</td>
-      <td align="center">3,614</td>
+      <td align="center">9</td>
+      <td align="center">3,616</td>
     </tr>
   </tbody>
 </table>
