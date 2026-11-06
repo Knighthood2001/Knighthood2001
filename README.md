@@ -124,12 +124,12 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2json/"><b>tree2json</b></a></td>
-      <td align="center">4</td>
+      <td align="center">3</td>
       <td align="center">5,842</td>
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/tree2proj/"><b>tree2proj</b></a></td>
-      <td align="center">3</td>
+      <td align="center">2</td>
       <td align="center">2,833</td>
     </tr>
     <tr>
@@ -144,12 +144,12 @@
     </tr>
     <tr>
       <td><a href="https://pypi.org/project/vsce-downloads/"><b>vsce-downloads</b></a></td>
-      <td align="center">8</td>
+      <td align="center">4</td>
       <td align="center">1,911</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
-      <td align="center">37</td>
+      <td align="center">31</td>
       <td align="center">29,242</td>
     </tr>
   </tbody>
@@ -190,12 +190,12 @@
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.md-translator"><b>md-translator</b></a></td>
       <td align="center">1</td>
-      <td align="center">1,100</td>
+      <td align="center">1,101</td>
     </tr>
     <tr>
       <td><b>Total</b></td>
       <td align="center">3</td>
-      <td align="center">3,683</td>
+      <td align="center">3,684</td>
     </tr>
   </tbody>
 </table>
