@@ -185,7 +185,7 @@
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.ros2-quick-runner"><b>ros2-quick-runner</b></a></td>
       <td align="center">1</td>
-      <td align="center">423</td>
+      <td align="center">424</td>
     </tr>
     <tr>
       <td><a href="https://marketplace.visualstudio.com/items?itemName=knighthood2001.md-translator"><b>md-translator</b></a></td>
@@ -195,7 +195,7 @@
     <tr>
       <td><b>Total</b></td>
       <td align="center">3</td>
-      <td align="center">3,697</td>
+      <td align="center">3,698</td>
     </tr>
   </tbody>
 </table>
